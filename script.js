@@ -20,3 +20,11 @@ function getRandomJoke () {
 
     return jokes[Math.floor(Math.random() * jokes.length)];
 }
+
+
+
+function logJoke() {
+    console.log(getRandomJoke());
+}
+
+logJoke();
